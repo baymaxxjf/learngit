@@ -1,5 +1,5 @@
 {
-  "name": "vue-mobile-setting-vw",
+  "name": "vue-mobile-vw",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,14 @@
     "test:unit": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "cssnano": "^4.1.7",
+    "postcss-aspect-ratio-mini": "^1.0.1",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.1",
+    "postcss-px-to-viewport": "0.0.3",
+    "postcss-pxtorem": "^4.0.1",
+    "postcss-url": "^8.0.0",
+    "postcss-write-svg": "^3.0.1",
     "register-service-worker": "^1.5.2",
     "vue": "^2.5.17",
     "vue-router": "^3.0.1",
@@ -26,6 +34,7 @@
     "@vue/test-utils": "^1.0.0-beta.20",
     "babel-eslint": "^10.0.1",
     "chai": "^4.1.2",
+    "cssnano-preset-advanced": "^4.0.5",
     "eslint": "^5.8.0",
     "eslint-plugin-vue": "^5.0.0-0",
     "stylus": "^0.54.5",
@@ -44,11 +53,6 @@
     "rules": {},
     "parserOptions": {
       "parser": "babel-eslint"
-    }
-  },
-  "postcss": {
-    "plugins": {
-      "autoprefixer": {}
     }
   },
   "browserslist": [
